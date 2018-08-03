@@ -23,6 +23,31 @@
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container div {
+  display: flex;
+  width: 50%;
+}
+
+textarea {
+  width: 100%;
+  height: 100vh;
+}
+
+#preview {
+  display: flex;
+  flex-direction: column;
+  width: 50%
 }

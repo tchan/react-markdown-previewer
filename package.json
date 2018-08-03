@@ -2,7 +2,12 @@
   "name": "markdown-previewer",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.3.0",
+    "node": "8.9.1"
+  },
   "dependencies": {
+    "marked": "^0.4.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "1.1.4"
